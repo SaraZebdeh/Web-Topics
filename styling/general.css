@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--bg_default);
+}
+
+body {
+  /* min-height: calc(100vh - 168.8px - 53.6px); */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Nunito Sans";
+  background-color: var(--bg_body);
+  color: var(--body-text);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 0.83rem;
+}
+
+.gab {
+  gap: 0.5rem;
+}
